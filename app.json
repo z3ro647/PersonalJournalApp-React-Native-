@@ -4,6 +4,12 @@
     "slug": "PersonalJournalApp",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "permissions": [
+      "CAMERA",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE"
+    ],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
